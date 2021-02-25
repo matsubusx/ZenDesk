@@ -1,2 +1,6 @@
 prepros.config
 node_modules/
+src/
+gulp/
+package.json
+package-lock.json
