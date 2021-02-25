@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "Макет ZenDesk",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -24,12 +23,15 @@
     "gulp-pug": "^4.0.1",
     "gulp-pug-linter": "^1.5.0",
     "gulp-w3c-html-validator": "^3.0.0",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "path": "^0.12.7",
+    "require": "^2.4.20"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.17",
     "@babel/core": "^7.12.17",
     "@babel/preset-env": "^7.12.17",
+    "babel-loader": "^8.2.2",
     "eslint": "^7.20.0",
     "eslint-config-htmlacademy": "^2.1.0",
     "eslint-config-standard": "^16.0.2",
@@ -42,6 +44,8 @@
     "gulp-sass": "^4.1.0",
     "gulp-shorthand": "^1.1.0",
     "gulp-svgstore": "^7.0.1",
-    "node-sass": "^5.0.0"
+    "node-sass": "^5.0.0",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0"
   }
 }
