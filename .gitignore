@@ -4,3 +4,6 @@ src/
 gulp/
 package.json
 package-lock.json
+webpack.dev.config.js
+webpack.prod.config.js
+gulpfile.js
