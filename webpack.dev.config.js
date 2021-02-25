@@ -7,6 +7,12 @@ module.exports = {
         path: path.resolve(__dirname, "./build/script")
     },
     mode: "development",
+    devServer: {
+        open: true,
+        port: 9100,
+        hot: true,
+        writeToDisk: true
+    },
     module: {
         rules: [
             {

@@ -1,5 +1,7 @@
-import gulp from 'gulp';
-import pug2html from './gulp/tasks/pug2html.js'
-import styles from './gulp/tasks/styles.js'
+const gulp = require('gulp');
+const pug2html = require('./gulp/tasks/pug2html.js');
+const styles = require('./gulp/tasks/styles.js');
+const watch = require('./gulp/tasks/watch.js');
 
-gulp.task("default", gulp.parallel(pug2html, styles));
+exports.build = gulp.parallel(pug2html, styles)
+exports.watch = watch

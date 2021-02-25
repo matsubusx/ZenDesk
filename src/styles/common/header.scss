@@ -3,5 +3,27 @@
     justify-content: space-between;
     align-items: center;
 
-    margin-bottom: 25px;
+}
+
+.header {
+    width: 100%;
+    padding-bottom: 25px;
+    padding-top: 15px;
+
+    background-color: #fff;
+    transition: all .3s;
+}
+
+.header-fix {
+    position: fixed;
+    z-index: 1500;
+}
+
+.header-scrolled {
+    padding-bottom: 10px;
+    padding-top: 5px;
+    margin-top: -20px;
+
+    background: orange;
+    transition: all .3s;
 }
