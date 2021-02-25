@@ -1,0 +1,48 @@
+.main-page {
+    background-color: #17494D;
+    height: 566px;
+    padding-top: 91px;
+
+    .underline {
+        border-bottom: 4px solid white;
+    }
+
+    &__article {      
+        span {
+            font-weight: bold;
+            font-size: 77px;
+            line-height: 97px;
+            text-align: left;    
+        }
+        max-width: 450px;
+    }
+
+    &__about {
+        max-width: 471px;
+        width: 100%;
+
+        & .text {        
+            margin-bottom: 50px;
+            color: white;
+        }
+
+        & .trial {
+            background: #FF6224;
+            border: 2px solid #FF6224;
+            border-radius: 0px;
+
+            padding: 14px 28px;
+            margin-right: 16px;
+        }
+
+        & .demo {
+            font-size: 18px;
+            line-height: 25px;            
+            text-align: center;
+            padding: 14px 28px;
+
+            color: #FF6224;
+            border: 2px solid #FF6224;
+        }
+    }
+}

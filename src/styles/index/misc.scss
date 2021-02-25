@@ -1,0 +1,22 @@
+.misc {
+    display: flex;
+    justify-content: flex-end;  
+
+    margin-top: 15px;
+    margin-bottom: 13px;
+
+    &__nav {
+        display: flex;
+
+        a {
+            font-size: 12px;
+            line-height: 18px;
+    
+            color: #17494D;
+        }
+    }
+
+    &__link:not(:last-child) {
+        margin-right: 12px;
+    }
+}
