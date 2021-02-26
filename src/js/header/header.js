@@ -1,12 +1,13 @@
 const fixHeader = () => {
     const header = document.querySelector('.header');
-    const headerHeight = header.clientHeight;
+    const headerHeight = header.offsetHeight;
     const headerMisc = header.querySelector('.misc');
 
     window.addEventListener('scroll', () => {
         const scrollTop = window.scrollY;
         
         if (scrollTop > 1) {
+            console.log(headerHeight);
             header.classList.add('header-fix');
             document.querySelector('main').style.paddingTop = headerHeight + "px";
         } else {
