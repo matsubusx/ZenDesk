@@ -536,7 +536,7 @@ body {
 
 .row-start {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 .pink {
@@ -611,6 +611,7 @@ a {
 
 .client-experience {
   margin-top: 108px;
+  margin-bottom: 272px;
 }
 
 .client-experience .link {
@@ -803,4 +804,40 @@ a {
   border: 2px solid #17494D;
   border-radius: 0px;
   color: white;
+}
+
+.customize {
+  background: url("../img/customize-bg.png") no-repeat center/cover;
+  height: 640px;
+  overflow: auto;
+}
+
+.customize .container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.customize__block {
+  background: #fff;
+  max-width: 625px;
+  width: 100%;
+  padding: 68px 65px 64px 64px;
+  margin-top: 112px;
+}
+
+.customize__title {
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: normal;
+  margin-bottom: 22px;
+}
+
+.customize__text {
+  margin-bottom: 30px;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.customize__learn {
+  margin-right: 36px;
 }

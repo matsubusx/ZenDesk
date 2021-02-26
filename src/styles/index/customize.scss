@@ -1,0 +1,40 @@
+.customize {
+    background: url("../img/customize-bg.png") no-repeat center/cover;
+    height: 640px;
+
+    overflow: auto;
+
+    .container {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__block {
+        background-color: #fff;
+
+        max-width: 625px;
+        width: 100%;
+
+        padding: 68px 65px 64px 64px;
+        margin-top: 112px;
+    }
+
+    &__title {
+        font-size: 48px;
+        line-height: 56px;
+        font-weight: normal;
+
+        margin-bottom: 22px;
+    }
+
+    &__text {
+        margin-bottom: 30px;
+
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    &__learn {
+        margin-right: 36px;
+    }
+}
