@@ -4,5 +4,6 @@ const styles = require('./gulp/tasks/styles.js');
 const img = require('./gulp/tasks/compileImg.js');
 const watch = require('./gulp/tasks/watch.js');
 
-exports.build = gulp.parallel(pug2html, styles, img)
+exports.build = gulp.parallel(pug2html, styles)
 exports.watch = watch
+exports.img = img
