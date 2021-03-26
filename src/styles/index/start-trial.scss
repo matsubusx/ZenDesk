@@ -1,0 +1,47 @@
+.trial {
+    background: #D6EEF2;
+    padding: 128px 355px;
+    .container {
+    }
+    .title {
+        font-size: 47px;
+        line-height: 56px;
+        text-align: center;
+        color: #03363D;
+    }
+    .row {
+        justify-content: center;
+    }
+    .start-trial {
+        background: #17494D;
+        border: 2px solid #17494D;
+        box-sizing: border-box;
+        border-radius: 0px;
+        
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+
+        padding: 13px 26px;
+        margin-right: 16px;
+    }
+    .view-demo {
+        border: 2px solid #17494D;
+        box-sizing: border-box;
+        border-radius: 0px;
+
+        padding: 13px 26px;
+
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color: #17494D;
+    }
+    
+    &__title {
+        margin-bottom: 48px;
+    }
+}

@@ -15,7 +15,6 @@
 
     &__link {
         display: inline-block;
-        margin-top: 57px;
         color: #03363D;
     }
     
@@ -27,6 +26,7 @@
     &__block {
         flex-wrap: wrap;
         justify-content: stretch;
+        margin-bottom: 57px;
     }
 
     &__logo {

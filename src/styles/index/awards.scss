@@ -4,6 +4,10 @@
     .row {
         flex-wrap: wrap;
         justify-content: space-between;
+
+        @media (max-width: 1110px) {
+            flex-direction: column;
+        }
     }
 
     .border-b-red {
@@ -22,7 +26,8 @@
         height: 336px;
         padding: 32px 35px 42px 31px;
 
-        flex: 0 0 350px;
+        max-width: 350px;
+        flex: 1 1 350px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
